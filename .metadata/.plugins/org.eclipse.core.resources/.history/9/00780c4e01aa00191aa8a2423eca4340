@@ -1,0 +1,10 @@
+package HelloWorld;
+
+public class HelloWorld {
+	public HelloWorld(String name) {
+		System.out.println("Dog's name is"+name);
+	}
+    public static void main(String []args) {
+    	HelloWorld myDog = new HelloWorld("afu");
+    }
+}
